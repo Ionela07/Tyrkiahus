@@ -107,7 +107,7 @@ img.image-top2 {
 @media(max-width:1200px) {
     .column {
         display: flex;
-        justify-content: space-between;
+        align-items: center;
         margin-top: 20px;
         flex-direction: column;
     }
