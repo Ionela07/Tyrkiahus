@@ -26,9 +26,7 @@ nav#mainNavbar {
 div#navbar {
     align-items: center;
 }
-.navbar-nav {
-    align-items: flex-start;
-}
+
 .container {
     margin: 0;
 }
@@ -38,6 +36,10 @@ div#navbar {
     font-size: 1rem;
     font-weight: 100;
 
+}
+
+.navbar-nav {
+    align-items: flex-start;
 }
 
 .navbar.scrolled {
@@ -106,8 +108,13 @@ img.ap2 {
 
 @media (max-width: 1200px) {
     img.ap2 {
-        width: 315px;
+        width: 350px;
         height: auto;
+    }
+
+    div.carousel-inner {
+        margin: 0;
+        padding: 0;
     }
 
 }
