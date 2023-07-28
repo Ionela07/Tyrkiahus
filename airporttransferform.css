@@ -1,6 +1,7 @@
 body {
     background-color: rgb(209, 237, 244);
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 #mainNavbar {
@@ -46,57 +47,12 @@ div#navbar {
     width: 160px;
 }
 
-
-/*h1 {
-    display: flex;
-    justify-content: center;
-    font-size: 2rem;
-    margin-top: 5%;
-}
-
-
-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-input.butsub {
-    width: 80px;
-    display: flex;
-    align-items: center;
-}
-
-label,
-input,
-select {
-    width: 200px;
-}
-
-@media (max-width: 600px) {
-    h1 {
-        display: flex;
-        justify-content: center;
-        font-size: 2rem;
-        margin-top: 10%;
-    }
-
-    input.butsub {
-        width: 80px;
-        display: flex;
-        align-items: center;
-        margin-left: 30%;
-    }
-}*/
 h1 {
     display: flex;
     justify-content: center;
     font-size: 2rem;
-    margin-top: 8%;
+    margin-top: 7%;
 }
-
 
 section {
     display: flex;
@@ -127,22 +83,24 @@ input.butsub {
     margin-left: 50%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     h1 {
         display: flex;
         justify-content: center;
         font-size: 2rem;
-        margin-top: 15%;
+        margin-top: 17%;
     }
 
     section {
         display: flex;
+        flex-direction: column;
         align-items: center;
-        margin-left: 12%;
+        margin-left: 8%;
     }
 
     label {
         width: 150px;
+        margin-left: 0;
     }
 
     input.butsub {
@@ -153,7 +111,6 @@ input.butsub {
     }
 
 }
-
 
 
 .line {
