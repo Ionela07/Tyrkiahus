@@ -47,16 +47,12 @@ div#navbar {
     width: 160px;
 }
 
-
-
-
 h1 {
     display: flex;
     justify-content: center;
     font-size: 2rem;
-    margin-top: 8%;
+    margin-top: 7%;
 }
-
 
 section {
     display: flex;
@@ -87,29 +83,24 @@ input.butsub {
     margin-left: 50%;
 }
 
-input.butsubr {
-    width: 249px;
-    display: flex;
-    align-items: center;
-    margin-left: 40%;
-}
-
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     h1 {
         display: flex;
         justify-content: center;
         font-size: 2rem;
-        margin-top: 15%;
+        margin-top: 17%;
     }
 
     section {
         display: flex;
+        flex-direction: column;
         align-items: center;
-        margin-left: 12%;
+        margin-left: 8%;
     }
 
     label {
         width: 150px;
+        margin-left: 0;
     }
 
     input.butsub {
@@ -119,9 +110,6 @@ input.butsubr {
         margin-left: 35%;
     }
 
-    input.butsubr {
-        margin-left: 20%;
-    }
 }
 
 
