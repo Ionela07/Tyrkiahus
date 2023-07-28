@@ -109,7 +109,10 @@ input.butsub {
         align-items: center;
         margin-left: 35%;
     }
-
+ input {
+        width: 150px;
+        height: 24px;
+    }
 }
 
 
