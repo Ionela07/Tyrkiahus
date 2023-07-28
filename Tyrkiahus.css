@@ -1,5 +1,4 @@
-body,
-html {
+body {
     background-color: rgb(209, 237, 244);
     margin: 0;
     padding: 0;
@@ -52,7 +51,7 @@ a:visited {
 }
 
 .Alanya {
-    width: 102%;
+    width: 100%;
     height: auto;
 }
 
@@ -67,6 +66,7 @@ a:visited {
     align-items: center;
     justify-content: center;
     margin-top: 2%;
+    width: 101%;
 }
 
 .img-overlay {
@@ -107,18 +107,18 @@ a:visited {
         align-items: center;
         justify-content: center;
         margin-top: 12%;
+        width: 104%;
     }
 
     .img-overlay {
         position: absolute;
-        top: 30%;
-        left: 25%;
+        left: 23%;
         transform: translate(-50%, -50%);
     }
 
     .text-overlay {
         position: absolute;
-        bottom: 20px;
+        bottom: 10px;
         left: 50%;
         transform: translateX(-50%);
         text-align: center;
@@ -135,20 +135,11 @@ a:visited {
 
     .btn {
         padding: 10px 20px;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
 }
 
-.container,
-.container-fluid,
-.container-lg,
-.container-md,
-.container-sm {
-    padding-right: 10%;
-    padding-left: 50%;
-    margin-right: auto;
-}
 
 div.container-fluid {
     display: flex;
@@ -170,6 +161,18 @@ div.box-container {
     height: 30px;
 
     justify-content: center;
+}
+
+.findru {
+    width: 80px;
+    height: 30px;
+
+    justify-content: center;
+}
+
+button.findru {
+    display: flex;
+    margin: auto;
 }
 
 button.find {
