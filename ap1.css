@@ -26,7 +26,9 @@ nav#mainNavbar {
 div#navbar {
     align-items: center;
 }
-
+.navbar-nav {
+    align-items: flex-start;
+}
 .container {
     margin: 0;
 }
