@@ -74,6 +74,11 @@ ul.proprety-feautures {
         padding-top: 12%;
     }
 
+    .container-fluid {
+        margin-top: 5%;
+
+    }
+
     .img-fluid {
         width: 100%;
         height: 50%;
